@@ -9,6 +9,49 @@
 	
 	
 .first {
-	background-color:rgb(42, 127, 184);}
+	background-color:rgb(42, 127, 184);
+	text-align:center;
+	}
 .first img{
+	width:100%;
+	}
+	
+	
+a{
+	font-size:28px;
+	text-align:center;
+	text-decoration:none;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+	}
+	
+	
+.second {
+	background-color:rgb(42, 127, 184);
+	text-align:center;
+	}
+.second img{
 	width:100%;}
+	
+	
+.third {
+	background-color:rgb(42, 127, 184);
+	text-align:center;
+	}
+.third img{
+	width:100%;}
+	
+.sc{
+	width:31.3%;
+	float:left;
+	margin:50px 1% ;}
+	
+	
+@media (max-width: 1024px) {
+	
+	.sc{
+	width:100%;
+	float:left;
+	margin:50px auto;}
+	
+}
