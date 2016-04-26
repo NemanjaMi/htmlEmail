@@ -1,10 +1,10 @@
 .header{
-	background-color:#05DCFF;
+	background-color:#ABFFFA;
 	back
 	
 	font-size:32x;
 	text-align:center;
-	padding:30px 20px 30px 20px;
+	padding:10px 20px 10px 20px;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
 	
 	
@@ -47,6 +47,9 @@ a{
 	float:left;
 	margin:50px 1% ;}
 	
+.sliderprop img{
+	width:100%;
+	}
 	
 @media (max-width: 1024px) {
 	
