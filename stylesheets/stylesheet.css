@@ -1,51 +1,92 @@
+body{
+	background-image:url(../img/pozadina.jpg);
+	background-size:cover;
+	margin: 0;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.container{
+	 max-width: 1170px;
+	 width:100%;
+	 padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+
+	}
+
 .header{
-	background-color:#ABFFFA;
-	back
-	
+	background-color:#262626;
 	font-size:32x;
 	text-align:center;
-	padding:10px 20px 10px 20px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
-	
-	
-.first {
-	background-color:rgb(42, 127, 184);
-	text-align:center;
-	}
-.first img{
-	width:100%;
-	}
-	
-	
-a{
-	font-size:28px;
-	text-align:center;
-	text-decoration:none;
+	padding:20px 20px 20px 20px;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	line-height:45px;
-	
-	}
+	border-bottom:3px solid #000000;}
 	
 	
-.second {
-	background-color: rgb(23, 159, 135);
-	text-align:center;
-	}
-.second img{
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+	
+.wi-12{
 	width:100%;}
 	
+.wi-12 p{
+	text-align: center;
+	font-size: 28px;
+	color: rgb(255, 255, 255);
+	margin:100px auto  50px;}
 	
-.third {
-	background-color: rgb(185, 58, 43);
+.placeholder {
+	
 	text-align:center;
-	}
-.third img{
-	width:100%;}
-	
-.sc{
-	width:31.3%;
 	float:left;
-	margin:50px 1% ;}
+	width:33.3333333%;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	text-align: center;
+	}
+
+
+.placeholder:hover{
+	transform:scale(1.01,1.01);
+	
+	}
+
+.placeholder:hover img{
+	opacity:0.6;}
+
+.placeholder img {
+	width:100%;
+	margin-bottom: 40px;
+	-webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding-left:15px;
+	padding-right:15px;
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	vertical-align: middle;
+	background-color: #262626;
+
+	}	
+	
+
 	
 .sliderprop img{
 	width:100%;
@@ -53,7 +94,7 @@ a{
 	
 @media (max-width: 1024px) {
 	
-	.sc{
+	.placeholder{
 	width:100%;
 	float:left;
 	margin:50px auto;}
