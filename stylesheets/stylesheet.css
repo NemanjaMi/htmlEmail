@@ -3,7 +3,7 @@ body{
 	background-size:cover;
 	background-color:#2f2e2e;
 	margin: 0;
-	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:"OpenSans","Helvetica Neue", Helvetica, Arial, sans-serif;
 	letter-spacing: 2px;
 	font-size:16px;
 	}
@@ -13,7 +13,12 @@ body{
     box-sizing: border-box;
 }
 
-
+@font-face {
+	src:url(../fonts/OpenSans-Light.ttf)
+	font-family: "OpenSans";
+    font-weight: 100;
+    font-style: normal;
+}
 .container{
 	 max-width: 1170px;
 	 width:100%;
@@ -29,7 +34,7 @@ body{
 	font-size:22x;
 	text-align:center;
 	padding:20px 20px 20px 20px;
-	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:"OpenSans","Helvetica Neue", Helvetica, Arial, sans-serif;
 	border-bottom:2px solid #000000;}
 	
 	
