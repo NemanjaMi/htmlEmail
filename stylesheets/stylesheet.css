@@ -1,8 +1,11 @@
 body{
 	background-image:url(../img/pozadina.jpg);
 	background-size:cover;
+	background-color:#2f2e2e;
 	margin: 0;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size:16px;
 	}
 * {
     -webkit-box-sizing: border-box;
@@ -23,11 +26,11 @@ body{
 
 .header{
 	background-color:#262626;
-	font-size:32x;
+	font-size:22x;
 	text-align:center;
 	padding:20px 20px 20px 20px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	border-bottom:3px solid #000000;}
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	border-bottom:2px solid #000000;}
 	
 	
 .row{
@@ -40,9 +43,9 @@ body{
 	
 .wi-12 p{
 	text-align: center;
-	font-size: 28px;
+	font-size: 18px;
 	color: rgb(255, 255, 255);
-	margin:100px auto  50px;}
+	margin:100px 20px  50px;}
 	
 .placeholder {
 	
@@ -64,7 +67,7 @@ body{
 	}
 
 .placeholder:hover img{
-	opacity:0.6;}
+	opacity:1.0;}
 
 .placeholder img {
 	width:100%;
@@ -80,13 +83,20 @@ body{
 	display: block;
 	max-width: 100%;
 	height: auto;
-	margin: 0 auto;
+	margin: 0 auto 20px;
 	vertical-align: middle;
 	background-color: #262626;
-
-	}	
+	opacity:0.8;
 	
 
+	}	
+.placeholder p {
+	}
+	
+a{
+	color:#ffffff;
+	text-decoration:none;
+	font-size: 15px;}
 	
 .sliderprop img{
 	width:100%;
